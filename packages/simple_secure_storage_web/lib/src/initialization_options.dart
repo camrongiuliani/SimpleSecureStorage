@@ -47,5 +47,5 @@ class WebInitializationOptions extends InitializationOptions {
   String get encryptionSalt => _encryptionSalt == null ? '_salt' : _encryptionSalt;
 
   /// Returns the namespace, or a default value if not specified.
-  String get namespace => super.namespace == null ? 'fr.skyost.simple_secure_storage' : namespace;
+  String get namespace => super.namespace == null ? 'fr.skyost.simple_secure_storage' : super.namespace;
 }
