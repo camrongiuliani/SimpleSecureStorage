@@ -6,8 +6,8 @@ issue_tracker: https://github.com/Skyost/SimpleSecureStorage/issues
 version: 0.2.0
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.3 <4.0.0'
+  flutter: '>=3.24.3'
 
 flutter:
   plugin:
@@ -19,7 +19,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  simple_secure_storage_platform_interface: ^0.2.0
+  simple_secure_storage_platform_interface:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_platform_interface
 
 dependency_overrides:
   simple_secure_storage_platform_interface:

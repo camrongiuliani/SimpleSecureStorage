@@ -9,18 +9,42 @@ funding:
   - https://paypal.me/Skyost
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.3 <4.0.0'
+  flutter: '>=3.24.3'
 
 dependencies:
   flutter:
     sdk: flutter
-  simple_secure_storage_platform_interface: ^0.2.0
-  simple_secure_storage_android: ^0.2.0
-  simple_secure_storage_darwin: ^0.2.0
-  simple_secure_storage_windows: ^0.3.0
-  simple_secure_storage_linux: ^0.2.0
-  simple_secure_storage_web: ^0.2.0
+  simple_secure_storage_platform_interface:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_platform_interface
+  simple_secure_storage_android:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_android
+  simple_secure_storage_darwin:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_darwin
+  simple_secure_storage_windows:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_windows
+  simple_secure_storage_linux:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_linux
+  simple_secure_storage_web:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_web
 
 dev_dependencies:
   flutter_test:

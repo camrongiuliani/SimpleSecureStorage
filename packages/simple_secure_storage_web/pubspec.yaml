@@ -6,8 +6,8 @@ issue_tracker: https://github.com/Skyost/SimpleSecureStorage/issues
 version: 0.2.0
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.3 <4.0.0'
+  flutter: '>=3.24.3'
 
 flutter:
   plugin:
@@ -23,9 +23,14 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   just_throttle_it: ^2.1.0
-  sembast: ^3.6.0
-  sembast_web: ^2.2.0
-  simple_secure_storage_platform_interface: ^0.2.0
+  sembast: ^3.7.1
+  sembast_web: ^2.3.0
+
+  simple_secure_storage_platform_interface:
+    git:
+      url: git@github.com:camrongiuliani/SimpleSecureStorage.git
+      ref: 0.0.4
+      path: packages/simple_secure_storage_platform_interface
   webcrypto: ^0.5.5
 
 dependency_overrides:
