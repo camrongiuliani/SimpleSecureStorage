@@ -81,6 +81,11 @@ class EncryptedDatabaseFactory implements DatabaseFactory {
       codec: _EncryptCodec(await AesGcmSecretKey.importRawKey(key)),
     );
   }
+
+  @override
+  Future<bool> databaseExists(String path) {
+    return databaseFactory.databaseExists(path);
+  }
 }
 
 /// AES-GCM based codec.
