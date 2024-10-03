@@ -26,7 +26,7 @@ dependencies:
   simple_secure_storage_platform_interface:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_platform_interface
 
 dependency_overrides:

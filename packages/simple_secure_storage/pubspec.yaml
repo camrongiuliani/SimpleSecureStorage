@@ -18,32 +18,32 @@ dependencies:
   simple_secure_storage_platform_interface:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_platform_interface
   simple_secure_storage_android:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_android
   simple_secure_storage_darwin:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_darwin
   simple_secure_storage_windows:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_windows
   simple_secure_storage_linux:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_linux
   simple_secure_storage_web:
     git:
       url: git@github.com:camrongiuliani/SimpleSecureStorage.git
-      ref: 0.0.4
+      ref: 0.0.5
       path: packages/simple_secure_storage_web
 
 dev_dependencies:
